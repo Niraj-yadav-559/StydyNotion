@@ -18,14 +18,14 @@ const Home = () => {
             <div className=' group mt-16 p-1 mx-auto rounded-full bg-richblack-800 font-bold text-richblack-200 transition-all
             duration-200 hover:scale-95 w-fit'>
                 <div className='flex flex-row items-center gap-2 rounded-full px-10 py-[5px] transition-all duration-200 group-hover:ring-richblack-900'>
-                    <p>Become an Instructor</p>
+                    <p>Become an Instructor.</p>
                     <FaArrowRight />
                 </div>
             </div>
         </Link>
 
         <div className='text-center text-4xl font-semibold mt-7'>
-            Empower Your Future with 
+            Empower Your Future with...
             <HighlighText text={"Coding Skills"}/>
         </div>
 
@@ -35,7 +35,7 @@ const Home = () => {
 
         <div className='flex flex-row gap-7 mt-8'>
             <CTAButton active={true} linkto={"/signup"}>
-                Learn More
+                Learn More.
             </CTAButton>
             <CTAButton active={false} linkto={"/login"}>
                 Book a Demo
@@ -59,7 +59,7 @@ const Home = () => {
         <CodeBlocks
             position={"lg:flex-row"}
             heading={
-                <div className='text-4xl font-semibold'>
+                <div className='text-4xl font-semibold '>
                     Unloack Your
                     <HighlighText text={"coding potential"}/>
                     with our online courses
